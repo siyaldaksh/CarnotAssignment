@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/priceDesc"
+        android:orderInCategory="100"
+        android:title="Price Desc"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/priceAsc"
+        android:orderInCategory="100"
+        android:title="Price Asc"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dateDesc"
+        android:orderInCategory="100"
+        android:title="Date Desc"
+        app:showAsAction="never" />
+
+     <item
+         android:id="@+id/dateAsc"
+         android:orderInCategory="100"
+         android:title="Date Asc"
+         app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="mainViewModel"
+            type="com.example.carnotassignment.ui.currentDailyPrice.CurrentDailyPriceListViewModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/searchBar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        android:layout_margin="8dp"
+        app:cardElevation="8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <AutoCompleteTextView
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/line"
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:hint="Search state or district"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:background="@android:color/transparent"
+                android:padding="8dp"
+                android:cursorVisible="true" />
+
+            <ImageView
+                android:id="@+id/search_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_search_24"
+                android:padding="16dp"
+                android:layout_marginEnd="8dp"
+                app:tint="@color/black"
+                android:onClick="@{() -> mainViewModel.searchData()}"
+                android:background="?attr/selectableItemBackground"
+                app:layout_constraintTop_toTopOf="@id/autoCompleteTextView"
+                app:layout_constraintBottom_toBottomOf="@id/autoCompleteTextView"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                app:layout_constraintRight_toLeftOf="@id/search_icon"
+                app:layout_constraintTop_toTopOf="@id/autoCompleteTextView"
+                app:layout_constraintBottom_toBottomOf="@id/autoCompleteTextView"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/black" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

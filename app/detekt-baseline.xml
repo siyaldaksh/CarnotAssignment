@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues/>
+  <CurrentIssues>
+    <ID>ComplexMethod:CurrentDailyPriceList.kt$CurrentDailyPriceList$override fun onCreateView( inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle? ): View</ID>
+    <ID>EmptyFunctionBlock:CurrentDailyPriceList.kt$CurrentDailyPriceList.&lt;no name provided&gt;${ }</ID>
+    <ID>LongMethod:CurrentDailyPriceList.kt$CurrentDailyPriceList$override fun onCreateView( inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle? ): View</ID>
+    <ID>MagicNumber:DataSource.kt$DataSource$10</ID>
+    <ID>MaxLineLength:ApiServices.kt$ApiServices$suspend</ID>
+    <ID>NewLineAtEndOfFile:Adapter.kt$com.example.carnotassignment.ui.currentDailyPrice.Adapter.kt</ID>
+    <ID>NewLineAtEndOfFile:ApiServices.kt$com.example.carnotassignment.networkModule.ApiServices.kt</ID>
+    <ID>NewLineAtEndOfFile:CarnotApplication.kt$com.example.carnotassignment.CarnotApplication.kt</ID>
+    <ID>NewLineAtEndOfFile:CarnotConstants.kt$com.example.carnotassignment.Utils.CarnotConstants.kt</ID>
+    <ID>NewLineAtEndOfFile:CurrentDailyPriceList.kt$com.example.carnotassignment.ui.currentDailyPrice.CurrentDailyPriceList.kt</ID>
+    <ID>NewLineAtEndOfFile:CurrentDailyPriceListViewModel.kt$com.example.carnotassignment.ui.currentDailyPrice.CurrentDailyPriceListViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:DataSource.kt$com.example.carnotassignment.ui.currentDailyPrice.DataSource.kt</ID>
+    <ID>NewLineAtEndOfFile:ExampleUnitTest.kt$com.example.carnotassignment.ExampleUnitTest.kt</ID>
+    <ID>NewLineAtEndOfFile:HiltModule.kt$com.example.carnotassignment.dependencyModule.HiltModule.kt</ID>
+    <ID>NewLineAtEndOfFile:MainActivity.kt$com.example.carnotassignment.MainActivity.kt</ID>
+    <ID>NewLineAtEndOfFile:Repository.kt$com.example.carnotassignment.repository.Repository.kt</ID>
+    <ID>NewLineAtEndOfFile:Resource.kt$com.example.carnotassignment.Utils.Resource.kt</ID>
+    <ID>NewLineAtEndOfFile:Status.kt$com.example.carnotassignment.Utils.Status.kt</ID>
+    <ID>PackageNaming:CarnotConstants.kt$package com.example.carnotassignment.Utils</ID>
+    <ID>PackageNaming:Resource.kt$package com.example.carnotassignment.Utils</ID>
+    <ID>PackageNaming:Status.kt$package com.example.carnotassignment.Utils</ID>
+    <ID>TooGenericExceptionCaught:DataSource.kt$DataSource$e: Exception</ID>
+    <ID>UtilityClassWithPublicConstructor:CarnotConstants.kt$CarnotConstants</ID>
+  </CurrentIssues>
+</SmellBaseline>
